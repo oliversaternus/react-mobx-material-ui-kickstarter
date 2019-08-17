@@ -1,4 +1,4 @@
-# react-mobx-kickstarter
+# react-mobx-material-ui-kickstarter
 A neat starting point for an application using React, React Router, MobX and Material UI
 
 ## Getting started
