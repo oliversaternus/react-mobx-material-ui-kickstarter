@@ -61,6 +61,9 @@ const styles = theme => ({
     clearIcon: {
         fill: theme.palette.primary.contrastText
     },
+    dialogPaper: {
+        backgroundColor: 'transparent'
+    },
     dialogInner: {
         padding: 24,
         paddingBottom: 48,
@@ -112,6 +115,7 @@ class Navigation extends React.Component {
                     keepMounted
                     open={this.dialogOpen}
                     onClose={this.hideDialog}
+                    classes={{ paper: classes.dialogPaper }}
                 >
                     <DialogContent className={fullScreen ? classes.fullScreenDialog : classes.dialog}>
                         <IconButton onClick={this.hideDialog} className={classes.clearButton}><ClearIcon className={classes.clearIcon} /></IconButton>
