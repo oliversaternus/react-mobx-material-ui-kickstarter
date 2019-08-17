@@ -1,6 +1,8 @@
 # react-mobx-material-ui-kickstarter
 A neat starting point for an application using React, React Router, MobX and Material UI
 
+![Screenshot](image.png?raw=true "Screenshot")
+
 ## Getting started
 
 - clone repo
